@@ -1,0 +1,113 @@
+Афонин:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Turok</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <h2>Список гиперссылок</h2>
+    <ul style="line-height: 30px;">
+        <li ><a href="http://kubsu.ru">абсолютнуая cсылочка на кубик http</a></li> 
+        <li><a href="https://kubsu.ru">абсолютнуая ссылочка2 на кубик https</a></li>
+        <li>
+            <a href="https://i.pinimg.com/originals/fa/fc/04/fafc04046d4c6238f0e1d8d6666e5240.jpg">
+            <img src="Photo/456.jpg"width="250">
+          </a>
+        </li>
+        <li><a href="newlist.html">cокращенная ссылкa на внутреннюю страницу</a></li>
+        <li><a href="index.html">cокращенная ссылкa на главную страницу</a></li>
+        <li><a href="#a1">Ссылка на фрагмент</a></li>
+        <li><a href="   https://www.google.com/maps/search/?api=1&query=restaurants&query_place_id=ChIJN1t_tDeuEmsRUcIaDlA2zjU">Ссылка c 3 параметрами url</a></li>
+        <li><a href="http://site.com/page?id=2">ссылка с параметром id в URL</a></li>
+        <li><a href="page.html">относительная на страницу в текущем каталоге</a></li>
+        <li><a href="https://about.google/">относительная на страницу в каталоге about</a></li>
+        <li><a href="1/1.html">относительная на страницу в каталоге уровнем выше текущего</a></li>
+        <li><a href="1/2/2.html">относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+        <li>контекстная в <a href="#">тексте</a> абзаца</li>
+        <li><a href="https://ru.wikipedia.org/wiki/HTML#Версии">ссылкa на фрагмент страницы стороннего сайта</a></li>
+        <li><img src="Photo/123.jpg" width="411" height="146" usemap="#map"></li>
+        <p><map name="map">
+          <area shape="rect" alt="Закладка 2" 
+          coords="18,50,138,160" 
+          href="https://www.apple.com/mac/">
+          <area shape="rect" alt="Закладка 3" 
+          coords="140,50,255,165" href="https://www.microsoft.com/ru-ru">
+          <area shape="circle" alt="Закладка 4" 
+          coords="319,110,60" 
+          href="https://www.linux.org.ru/">
+          </map></p>
+          <li><a href="">ссылкa с пустым href</a></li>
+          <li><a>ссылкa без href</a></li>
+          <li><a href="http://" rel="nofollow">ссылкa, по которой запрещен переход поисковикам</a></li>
+          <li><a href="http://" rel="noindex">ссылкa, по которой запрещен переход поисковикам</a></li>
+          <li>
+            <ol>
+              <li><a href="https://www.apple.com/mac/">apple<title>#</title></a></li>
+              <li><a href="https://www.linux.org.ru/">linux<title>#</title></a></li>
+              <li><a href="https://www.microsoft.com/ru-ru">Windows<title>#</title></a></li>
+            </ol>
+          </li>
+          <li><a href="ftp://user:pass123@site.ru/Temp/file.txt">!@!?\|||||</a></li>
+    </ul>
+    <div style="margin-left: 25px; margin-bottom: 25px;" st>
+          <form action="" method="get" id="a1">
+            <p>
+              <label for="name">Введите ФИО:</label>
+              <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+                <label for="tel">Введите телефон:</label>
+                <input type="tel" name="tel" id="tel" required>
+              </p>
+            <p>
+              <label for="email">Введите email:</label>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="date">Введите дату рождения:</label>
+                <input type="date" name="date" id="date" required>
+              </p>
+              <legend>Выберите пол</legend>
+              <br>
+                <label>
+                <input type="radio" name="level">
+                МУЖ
+                </label>
+                <label>
+                <input type="radio" name="level"checked>
+                ЖЕН
+                </label>
+                <label>
+                <input type="radio" name="level">
+                ПЛИТКА
+                </label>
+
+<br>
+          </form>   
+          <label>
+     <p> Любимый язык програмирования:</p>
+      <select name="field-name-3">
+        <option value="Значение0"selected="selected">-</option>
+        <option value="Значение1">С#</option>
+        <option value="Значение2">Java</option>
+        <option value="Значение3">C++</option>
+        <option value="значиние4">JS</option>
+        <option value="Значение5">PHP</option>
+      </select>
+    </label>
+    <br/>
+  <p> Многострочное текстовое поле:</p>
+    <textarea name="field-name-2">Пиши сюда</textarea>
+  </label><br>
+  <br>
+     <input type="submit" value="Отправить" />
+    </div>
+  </main>
+  <footer></footer>
+    </body>
+</html>
